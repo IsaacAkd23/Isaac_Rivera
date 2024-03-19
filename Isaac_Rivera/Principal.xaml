@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Isaac_Rivera.Principal">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Margin="20,20,20,20" BackgroundColor="Beige">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" TextColor="Black" Text="ID" />
+                <Label Grid.Row="1" Grid.Column="0" TextColor="Black" Text="NOMBRE" />
+                <Label Grid.Row="2" Grid.Column="0" TextColor="Black" Text="APELLIDO" />
+                <Label Grid.Row="3" Grid.Column="0" TextColor="Black" Text="DIRECCION" />
+                <Label Grid.Row="4" Grid.Column="0" TextColor="Black" Text="CALIFICACION" />
+
+                <Label Grid.Row="0" Grid.Column="1" Text="0001" />
+                <Label Grid.Row="1" Grid.Column="1" Text="ISAAC" />
+                <Label Grid.Row="2" Grid.Column="1" Text="RIVERA" />
+                <Label Grid.Row="3" Grid.Column="1" Text="CHILLOGALLO" />
+                <Label Grid.Row="4" Grid.Column="1" Text="9.50" />
+
+
+
+
+            </Grid>
+            <Button Text="EDITAR" TextColor="Blue" BackgroundColor="LightGray" CornerRadius="10" x:Name="BtnEditar1"/>
+            <Button Text="ELIMINAR" TextColor="Blue" BackgroundColor="LightGray" CornerRadius="10" x:Name="BtnEliminar1"/>
+
+            <Grid Margin="20,20,20,20" BackgroundColor="Beige">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" TextColor="Black" Text="ID" />
+                <Label Grid.Row="1" Grid.Column="0" TextColor="Black" Text="NOMBRE" />
+                <Label Grid.Row="2" Grid.Column="0" TextColor="Black" Text="APELLIDO" />
+                <Label Grid.Row="3" Grid.Column="0" TextColor="Black" Text="DIRECCION" />
+                <Label Grid.Row="4" Grid.Column="0" TextColor="Black" Text="CALIFICACION" />
+
+                <Label Grid.Row="0" Grid.Column="1" Text="0002" />
+                <Label Grid.Row="1" Grid.Column="1" Text="EVELYN" />
+                <Label Grid.Row="2" Grid.Column="1" Text="MORALES" />
+                <Label Grid.Row="3" Grid.Column="1" Text="SAN LUIS" />
+                <Label Grid.Row="4" Grid.Column="1" Text="9.50" />
+
+
+
+
+            </Grid>
+            <Button Text="EDITAR" TextColor="Blue" BackgroundColor="LightGray" CornerRadius="10" x:Name="BtnEditar"/>
+            <Button Text="ELIMINAR" TextColor="Blue" BackgroundColor="LightGray" CornerRadius="10" x:Name="BtnEliminar"/>
+            <Button Text="AGREGAR ESTUDIANTE" TextColor="Blue" BackgroundColor="OrangeRed" CornerRadius="10" x:Name="BtnAgregar" Clicked="BtnAgregar_Clicked" />
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

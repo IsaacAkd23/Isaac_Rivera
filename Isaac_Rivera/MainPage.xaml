@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Isaac_Rivera.MainPage">
+
+    <StackLayout VerticalOptions="Center">
+
+        <Label Text="LOGIN"
+               FontSize="40"
+               TextColor="Blue"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+
+
+        <Label Text="USER" HorizontalOptions="Center"/>
+        <Entry Placeholder="Usuario" x:Name="txtUsuario"/>
+        <Label Text="1234" HorizontalOptions="Center"/>
+        <Entry Placeholder="Contraseña" Keyboard="Numeric" IsPassword="True" x:Name="txtContraseña"/>
+        <Button Text="Ingresar" TextColor="Blue" BackgroundColor="DarkRed" CornerRadius="10" x:Name="BtnLogin" Clicked="BtnLogin_Clicked"/>
+    </StackLayout>
+
+</ContentPage>

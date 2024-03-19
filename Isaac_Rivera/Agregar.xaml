@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Isaac_Rivera.Agregar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Margin="20,20,20,20" BackgroundColor="Beige">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"></RowDefinition>
+                        <RowDefinition Height="25"></RowDefinition>
+                        <RowDefinition Height="25"></RowDefinition>
+                        <RowDefinition Height="25"></RowDefinition>
+                        <RowDefinition Height="25"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" TextColor="Black" Text="ID" />
+                    <Label Grid.Row="1" Grid.Column="0" TextColor="Black" Text="NOMBRE" />
+                    <Label Grid.Row="2" Grid.Column="0" TextColor="Black" Text="APELLIDO" />
+                    <Label Grid.Row="3" Grid.Column="0" TextColor="Black" Text="DIRECCION" />
+                    <Label Grid.Row="4" Grid.Column="0" TextColor="Black" Text="CALIFICACION" />
+
+                    <Label Grid.Row="0" Grid.Column="1" Text="0003" />
+                    <Entry Grid.Row="1" Grid.Column="1" Placeholder="NOMBRE" x:Name="txtNombre"/>
+                    <Entry Grid.Row="2" Grid.Column="1" Placeholder="APELLIDO" x:Name="txtApellido" />
+                    <Entry Grid.Row="3" Grid.Column="1" Placeholder="DIRECCION" x:Name="txtDireccion"/>
+                    <Entry Grid.Row="4" Grid.Column="1" Placeholder="NOTA" x:Name="txtNota"/>
+
+
+
+
+                </Grid>
+                <Button Text="Guardar" TextColor="Blue" BackgroundColor="LightGray" CornerRadius="10" x:Name="BtnAgregar"/>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
